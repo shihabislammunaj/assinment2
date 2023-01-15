@@ -100,6 +100,10 @@ button{
 
 
 
+
+
+
+
      /* this is banner  */
 
 
@@ -341,24 +345,24 @@ color: #FF900E;}
     line-height: 26px;}
 
     .boxes{
-      margin-top: 350px;
-    /* display: flex;
-    justify-content: space-evenly; */
-    display: flex;
+    margin-top: 350px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 124px;
     margin-left: 290px;
-    margin-right: 290px;}
+    margin-right: 290px; 
+    }
 
 
     .box{
       border: 1px solid #FF900E;
       border-radius: 8px;
-      width: 220.83px;
-      height: 220.83px;
+       
       
-      
+width: 240.83px;
+height: 240.83px;
       text-align: center;
-       margin-top: 2px;}
+      margin-top: 2px; }
 
 
 
