@@ -350,19 +350,24 @@ color: #FF900E;}
     grid-template-columns: repeat(4, 1fr);
     gap: 124px;
     margin-left: 290px;
-    margin-right: 290px; 
+    margin-right: 290px;
+    width: 1200px; 
     }
 
 
     .box{
       border: 1px solid #FF900E;
       border-radius: 8px;
-       
-      
-width: 240.83px;
-height: 240.83px;
+       width: 240.83px;
+       height: 240.83px;
       text-align: center;
       margin-top: 2px; }
+
+      .box:hover{
+        transform: rotate();
+        border: 5px solid #ebb2b2;
+        background-color: #ebb2b2;
+      }
 
 
 
